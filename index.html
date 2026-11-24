@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>*{box-sizing:border-box}body{margin:0}img{max-width:100%}</style>
+<title>Knockerz Black Friday Statics</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a contact-sheet wall of 4:5 frames, offer slug up top, two reels (Forever Hungry style, Freestyle). */
+:root{--bg:#f3f1ef;--fg:#141212;--mute:#6b6463;--line:#dcd6d3;--card:#ffffff;--red:#e21b1b;--amber:#a86a00;
+ --display:"Anton",Impact,"Arial Narrow",sans-serif;--body:"Archivo",system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121010;--fg:#f2eeec;--mute:#9a9190;--line:#2b2626;--card:#1b1818;--red:#ff3b3b;--amber:#e0a33a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121010;--fg:#f2eeec;--mute:#9a9190;--line:#2b2626;--card:#1b1818;--red:#ff3b3b;--amber:#e0a33a;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px;display:grid;gap:48px}
+header{display:grid;gap:14px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(44px,8vw,96px);line-height:.92;letter-spacing:.005em;margin:0;text-transform:uppercase;text-wrap:balance}
+h1 em{font-style:normal;color:var(--red)}
+.slug{display:flex;flex-wrap:wrap;gap:8px 20px;font-family:var(--mono);font-size:13px;color:var(--mute);border-top:1px solid var(--line);padding-top:14px}
+.slug b{color:var(--fg);font-weight:500}
+section{display:grid;gap:18px}
+.sh{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:2px solid var(--fg);padding-bottom:8px}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(28px,4vw,40px);margin:0;text-transform:uppercase;letter-spacing:.01em}
+.sh p{margin:0;color:var(--mute);max-width:60ch;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:22px 18px}
+figure{margin:0;display:grid;gap:8px;min-width:0}
+.shot{all:unset;cursor:zoom-in;display:block;aspect-ratio:4/5;max-width:100%;background:var(--card);overflow:hidden;outline-offset:3px}
+.shot:focus-visible{outline:2px solid var(--red)}
+.shot img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s ease}
+.shot:hover img{transform:scale(1.02)}
+figcaption{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;font-size:13px}
+.no{font-family:var(--mono);color:var(--mute);font-variant-numeric:tabular-nums}
+.nm{font-weight:600}
+.hd{flex-basis:100%;font-family:var(--mono);font-size:11.5px;color:var(--mute);letter-spacing:.03em}
+.tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border:1px solid currentColor}
+.tag.lead{color:var(--red)} .tag.soft{color:var(--mute)} .tag.call{color:var(--amber)}
+.notes{display:grid;gap:10px;border-top:1px solid var(--line);padding-top:18px;max-width:70ch;font-size:14px}
+.notes h3{margin:0;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);font-weight:500}
+.notes ul{margin:0;padding-left:18px;display:grid;gap:6px}
+dialog{border:0;padding:0;background:transparent;max-width:min(92vw,720px);width:100%}
+dialog::backdrop{background:rgba(8,6,6,.88)}
+dialog img{width:100%;height:auto;max-height:86vh;object-fit:contain;display:block}
+dialog p{color:#f2eeec;font-family:var(--mono);font-size:12px;margin:10px 0 0;text-align:center}
+.close{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));right:calc(12px + env(safe-area-inset-right,0px));background:#f2eeec;color:#141212;border:0;font:600 13px var(--body);padding:8px 12px;cursor:pointer}
+@media (prefers-reduced-motion:reduce){.shot img{transition:none}}
+</style>
+</head><body>
+<div class="wrap">
+<header>
+ <div class="eyebrow">Knockerz Only · Black Friday 2026 · static ads</div>
+ <h1>25% off <em>storewide</em></h1>
+ <div class="slug"><span><b>26</b> frames</span><span><b>16</b> Forever Hungry style</span><span><b>10</b> freestyle</span><span>1080 × 1350 · 4:5 feed</span><span>Sets stay $99 / $85</span></div>
+</header>
+<section>
+ <div class="sh"><h2>Forever Hungry style</h2><p>The set takes the place of whatever normally goes in an everyday object. Short pun headline, no people.</p></div>
+ <div class="grid"><figure><button class="shot" data-src="img/fh/01-receipt.jpg" data-cap="Receipt — PAID LESS." aria-label="Open Receipt"><img src="img/fh/01-receipt.jpg" alt="Receipt: PAID LESS." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">01</span><span class="nm">Receipt</span><span class="tag lead">Lead</span><span class="hd">PAID LESS.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/02-claw.jpg" data-cap="Claw machine — GOT ONE." aria-label="Open Claw machine"><img src="img/fh/02-claw.jpg" alt="Claw machine: GOT ONE." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">02</span><span class="nm">Claw machine</span><span class="tag lead">Lead</span><span class="hd">GOT ONE.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/03-giftbox.jpg" data-cap="Gift box — UNWRAP EARLY." aria-label="Open Gift box"><img src="img/fh/03-giftbox.jpg" alt="Gift box: UNWRAP EARLY." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">03</span><span class="nm">Gift box</span><span class="hd">UNWRAP EARLY.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/04-billboard.jpg" data-cap="Billboard — HOLLYWOOD&#x27;S CHEAPER." aria-label="Open Billboard"><img src="img/fh/04-billboard.jpg" alt="Billboard: HOLLYWOOD&#x27;S CHEAPER." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">04</span><span class="nm">Billboard</span><span class="tag lead">Lead</span><span class="hd">HOLLYWOOD&#x27;S CHEAPER.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/05-pizza.jpg" data-cap="Pizza box — HOT AND FRESH." aria-label="Open Pizza box"><img src="img/fh/05-pizza.jpg" alt="Pizza box: HOT AND FRESH." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">05</span><span class="nm">Pizza box</span><span class="hd">HOT AND FRESH.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/06-museum.jpg" data-cap="Museum case — PRICELESS. NOT TODAY." aria-label="Open Museum case"><img src="img/fh/06-museum.jpg" alt="Museum case: PRICELESS. NOT TODAY." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">06</span><span class="nm">Museum case</span><span class="tag lead">Lead</span><span class="hd">PRICELESS. NOT TODAY.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/07-newspaper.jpg" data-cap="Newspaper — PRICES CRASH." aria-label="Open Newspaper"><img src="img/fh/07-newspaper.jpg" alt="Newspaper: PRICES CRASH." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">07</span><span class="nm">Newspaper</span><span class="hd">PRICES CRASH.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/08-menu.jpg" data-cap="Menu board — COMBO MEAL." aria-label="Open Menu board"><img src="img/fh/08-menu.jpg" alt="Menu board: COMBO MEAL." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">08</span><span class="nm">Menu board</span><span class="tag lead">Lead</span><span class="hd">COMBO MEAL.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/09-trunk.jpg" data-cap="Car trunk — TRUNK SALE." aria-label="Open Car trunk"><img src="img/fh/09-trunk.jpg" alt="Car trunk: TRUNK SALE." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">09</span><span class="nm">Car trunk</span><span class="hd">TRUNK SALE.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/10-jewellery.jpg" data-cap="Jewellery case — ICED OUT. PRICED DOWN." aria-label="Open Jewellery case"><img src="img/fh/10-jewellery.jpg" alt="Jewellery case: ICED OUT. PRICED DOWN." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">10</span><span class="nm">Jewellery case</span><span class="hd">ICED OUT. PRICED DOWN.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/11-supermarket-fixed.jpg" data-cap="Meat tray — FRESH CUT." aria-label="Open Meat tray"><img src="img/fh/11-supermarket-fixed.jpg" alt="Meat tray: FRESH CUT." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">11</span><span class="nm">Meat tray</span><span class="hd">FRESH CUT.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/12-knolling-fixed.jpg" data-cap="Flat-lay — EVERYTHING YOU NEED." aria-label="Open Flat-lay"><img src="img/fh/12-knolling-fixed.jpg" alt="Flat-lay: EVERYTHING YOU NEED." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">12</span><span class="nm">Flat-lay</span><span class="hd">EVERYTHING YOU NEED.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/13-hangtag.jpg" data-cap="Hang tag — 25% OFF." aria-label="Open Hang tag"><img src="img/fh/13-hangtag.jpg" alt="Hang tag: 25% OFF." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">13</span><span class="nm">Hang tag</span><span class="hd">25% OFF.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/14-cereal.jpg" data-cap="Cereal box — PART OF THIS BALANCED FIT." aria-label="Open Cereal box"><img src="img/fh/14-cereal.jpg" alt="Cereal box: PART OF THIS BALANCED FIT." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">14</span><span class="nm">Cereal box</span><span class="tag soft">Weaker</span><span class="hd">PART OF THIS BALANCED FIT.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/15-oven.jpg" data-cap="Oven — FRESH OUT THE OVEN." aria-label="Open Oven"><img src="img/fh/15-oven.jpg" alt="Oven: FRESH OUT THE OVEN." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">15</span><span class="nm">Oven</span><span class="tag soft">Weaker</span><span class="hd">FRESH OUT THE OVEN.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fh/16-vending-v2.jpg" data-cap="Vending machine — GRAB ONE." aria-label="Open Vending machine"><img src="img/fh/16-vending-v2.jpg" alt="Vending machine: GRAB ONE." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">16</span><span class="nm">Vending machine</span><span class="tag soft">Weaker</span><span class="hd">GRAB ONE.</span></figcaption></figure></div>
+</section>
+<section>
+ <div class="sh"><h2>Freestyle</h2><p>Built from the brand's own world: the Knockerz name and Hollywood.</p></div>
+ <div class="grid"><figure><button class="shot" data-src="img/fs/01-knocker.jpg" data-cap="Door knocker — KNOCK KNOCK." aria-label="Open Door knocker"><img src="img/fs/01-knocker.jpg" alt="Door knocker: KNOCK KNOCK." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">01</span><span class="nm">Door knocker</span><span class="tag lead">Lead</span><span class="hd">KNOCK KNOCK.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fs/02-walkoffame.jpg" data-cap="Walk of Fame — A STAR IS BORN." aria-label="Open Walk of Fame"><img src="img/fs/02-walkoffame.jpg" alt="Walk of Fame: A STAR IS BORN." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">02</span><span class="nm">Walk of Fame</span><span class="tag call">Your call: trademarked star</span><span class="hd">A STAR IS BORN.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fs/03-clapper.jpg" data-cap="Clapperboard — TAKE TWO." aria-label="Open Clapperboard"><img src="img/fs/03-clapper.jpg" alt="Clapperboard: TAKE TWO." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">03</span><span class="nm">Clapperboard</span><span class="hd">TAKE TWO.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fs/04-firecase.jpg" data-cap="Fire cabinet — BREAK GLASS." aria-label="Open Fire cabinet"><img src="img/fs/04-firecase.jpg" alt="Fire cabinet: BREAK GLASS." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">04</span><span class="nm">Fire cabinet</span><span class="hd">BREAK GLASS.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fs/05-boxing2.jpg" data-cap="Boxing ring — KNOCKOUT PRICES." aria-label="Open Boxing ring"><img src="img/fs/05-boxing2.jpg" alt="Boxing ring: KNOCKOUT PRICES." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">05</span><span class="nm">Boxing ring</span><span class="hd">KNOCKOUT PRICES.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fs/06-hills-fixed.jpg" data-cap="Hollywood hills — FIRE IN HOLLYWOOD." aria-label="Open Hollywood hills"><img src="img/fs/06-hills-fixed.jpg" alt="Hollywood hills: FIRE IN HOLLYWOOD." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">06</span><span class="nm">Hollywood hills</span><span class="hd">FIRE IN HOLLYWOOD.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fs/07-director.jpg" data-cap="Director&#x27;s chair — DIRECTOR&#x27;S CUT." aria-label="Open Director&#x27;s chair"><img src="img/fs/07-director.jpg" alt="Director&#x27;s chair: DIRECTOR&#x27;S CUT." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">07</span><span class="nm">Director&#x27;s chair</span><span class="hd">DIRECTOR&#x27;S CUT.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fs/08-redcarpet.jpg" data-cap="Red carpet — RED CARPET READY." aria-label="Open Red carpet"><img src="img/fs/08-redcarpet.jpg" alt="Red carpet: RED CARPET READY." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">08</span><span class="nm">Red carpet</span><span class="tag call">Your call: blurred crowd</span><span class="hd">RED CARPET READY.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fs/09-marquee.jpg" data-cap="Cinema marquee — NOW SHOWING. 25% OFF." aria-label="Open Cinema marquee"><img src="img/fs/09-marquee.jpg" alt="Cinema marquee: NOW SHOWING. 25% OFF." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">09</span><span class="nm">Cinema marquee</span><span class="tag soft">Weaker</span><span class="hd">NOW SHOWING. 25% OFF.</span></figcaption></figure>
+<figure><button class="shot" data-src="img/fs/10-alarm.jpg" data-cap="Fire alarm — PULL BEFORE IT&#x27;S GONE." aria-label="Open Fire alarm"><img src="img/fs/10-alarm.jpg" alt="Fire alarm: PULL BEFORE IT&#x27;S GONE." loading="lazy" width="1080" height="1350"></button><figcaption><span class="no">10</span><span class="nm">Fire alarm</span><span class="hd">PULL BEFORE IT&#x27;S GONE.</span></figcaption></figure></div>
+</section>
+<div class="notes">
+ <h3>Before these run</h3>
+ <ul>
+  <li>The 25% discount on singles has to be live on the store first. Sets stay at $99 and $85.</li>
+  <li>Walk of Fame uses a trademarked star design. Red carpet has a blurred crowd of photographers in the background.</li>
+  <li>Tap any frame to see it full size.</li>
+ </ul>
+</div>
+</div>
+<dialog id="lb"><button class="close" id="lbclose">Close</button><img id="lbimg" alt=""><p id="lbcap"></p></dialog>
+<script>
+const lb=document.getElementById('lb'),im=document.getElementById('lbimg'),cap=document.getElementById('lbcap');
+document.querySelectorAll('.shot').forEach(b=>b.addEventListener('click',()=>{im.src=b.dataset.src;im.alt=b.dataset.cap;cap.textContent=b.dataset.cap;lb.showModal()}));
+document.getElementById('lbclose').onclick=()=>lb.close();
+lb.addEventListener('click',e=>{if(e.target===lb)lb.close()});
+</script>
+
+</body></html>
